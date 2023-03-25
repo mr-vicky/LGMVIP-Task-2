@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(/bg1.jpg);
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+
+.conatiner{
+    background-color: red;
+    height: 800px;
+    width: 800px;
+}
+
+/* ____________________________________________________ DIV-BOX ____________________________________________________ */
+
+.box{
+    background-color: rgb(46 43 43 / 50%);
+    height: 250px;
+    width: 509px;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 30px;
+    align-items: center;
+    padding: 40px;
+}
+
+/* ------------------- HEADINGS ---------------------- */
+h1{
+    display: block;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Bitter', serif;
+    font-family: 'Carter One', cursive;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+#section-2-heading{
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+/* --------------------- INPUTS ---------------------- */
+input{
+    margin: auto;
+    display: block;
+    width: 492px;
+    height: 27px;
+    border-radius: 5px;
+    padding-left: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* ____________________________________________________ BUTTONS ____________________________________________________ */
+
+#btn {
+    background-color: #322c33;
+    display: inline;
+    width: 248px;
+    height: 32px;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: white;
+}
+#btn:hover{
+    background-color: #3e373f;
+}
+
+#rbtn{
+    background-color: #322c33;
+    display: inline;
+    width: 248px;
+    height: 32px;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: white;
+}
+
+#rbtn:hover{
+    background-color: #3e373f;
+}
+
+/* ____________________________________________________ TABLES ____________________________________________________ */
+
+table{
+    background-color: rgb(140, 132, 132);
+    color: white;
+    width: 1200px;
+    height: 20px;
+    margin: auto;
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+table th{
+    background-color: rgb(31, 27, 27);
+    color: white;
+}
