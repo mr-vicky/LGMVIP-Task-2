@@ -29,7 +29,6 @@ function add_new_row(){
 
         n = n+1;
         x = x+1;
-
 }
 
 
